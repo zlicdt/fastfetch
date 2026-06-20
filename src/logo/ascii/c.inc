@@ -296,6 +296,19 @@ static const FFlogo C[] = {
         .colorTitle = FF_COLOR_FG_GREEN,
     },
     #endif
+    #ifdef FASTFETCH_DATATEXT_LOGO_CLIPSNEKO
+    // ClipsNeko Linux
+    {
+        .names = { "clipsneko" },
+        .lines = FASTFETCH_DATATEXT_LOGO_CLIPSNEKO,
+        .colors = {
+            FF_COLOR_FG_CYAN,
+            FF_COLOR_FG_WHITE,
+        },
+        .colorKeys = FF_COLOR_FG_CYAN,
+        .colorTitle = FF_COLOR_FG_WHITE,
+    },
+    #endif
     #ifdef FASTFETCH_DATATEXT_LOGO_CLOVER
     // Clover
     {
